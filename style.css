@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper,
+.msg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.wrapper h1,
+.msg {
+  font-size: 60px;
+}
+
+.wrapper span,
+.msg span {
+  color: #fc0101;
+}
